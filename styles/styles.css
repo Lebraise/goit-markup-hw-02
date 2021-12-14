@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto' 'Raleway' sans-serif;
+    background-color: #E5E5E5;
+
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+background: #FFFFFF;
+padding-left: 215px;
+padding-top: 24px;
+padding-bottom: 25px;
+padding-right: 93px;
+}
+
+.studio-name {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.web {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header-list {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.header-list:visited {
+    color:#212121;
+}
+
+.header-list:hover {
+    color:#2196F3;
+}
+
+.head-contact {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;   
+    color: #757575;
+}
+
+.head-contact:hover {
+   color:#2196F3
+}
