@@ -1,7 +1,9 @@
 body {
-    font-family: 'Roboto' 'Raleway' sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #E5E5E5;
-
+    width: 1600px;
+    margin: 0 auto;
+    line-height: 1,5;
 }
 
 .list {
@@ -9,20 +11,28 @@ body {
     display: flex;
 }
 
+
 .link {
     text-decoration: none;
 }
 
 .header {
     display: flex;
-background: #FFFFFF;
-padding-left: 215px;
-padding-top: 24px;
-padding-bottom: 25px;
-padding-right: 93px;
+    /* width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px; */
+    background: #FFFFFF;
+
 }
 
+/* Стилизация WebStudio */
+
 .studio-name {
+    padding-top: 24px;
+    padding-right: 93px;  
+    padding-bottom: 25px;
+    padding-left: 215px;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -41,7 +51,26 @@ padding-right: 93px;
     color: #2196F3;
 }
 
-.header-list {
+.menu-nav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.list-studio {
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.list-portfolio {
+    padding-right: 50px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -51,24 +80,69 @@ padding-right: 93px;
     color: #212121;
 }
 
-.header-list:visited {
-    color:#212121;
+.list-portfolio:hover {
+    color: #2196F3;
 }
 
-.header-list:hover {
-    color:#2196F3;
-}
-
-.head-contact {
+.list-contacts {
+    padding-right: 331px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.02em;   
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.list-contacts:hover {
+    color:#2196F3;
+}
+
+.contact-list {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.header-mail {
+    padding-right: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: #757575;
 }
 
-.head-contact:hover {
-   color:#2196F3
+.header-mail:hover {
+    color:#2196F3;
 }
+
+.header-tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-tel:hover {
+    color:#2196F3;
+}
+
+/* .list-portfolio,
+.list-contacts,
+.header-mail,
+.header-tel:visited {
+color: #212121;
+}
+
+.list-portfolio,
+.list-contacts,
+.header-mail,
+.header-tel :hover {
+color: #2196F3;
+} */
